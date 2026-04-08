@@ -1,1 +1,1 @@
-# Actividad_3.1-Trayectorias-en-lazo-abierto-
+# Actividad 3.1 (Trayectorias en lazo abierto)
