@@ -37,7 +37,7 @@ Usamos `ones(1, 10)` para mantener una velocidad constante exactamente durante 1
 
 ### 3. Modelo Cinemático: Integración de Euler
 
-Una vez que se tienen los vectores de velocidades, el bucle `for` recorre cada instante de tiempo. Utilizando el método de Euler, se calcula la nueva posición y orientación del robot sumando la posición anterior más el desplazamiento generado por las velocidades actuales:
+Una vez que tenemos los vectores de velocidades, el bucle `for` recorre cada instante de tiempo. Utilizando el método de Euler, se calcula la nueva posición y orientación del robot sumando la posición anterior más el desplazamiento generado por las velocidades actuales:
 
 ```matlab
 for k=1:N 
