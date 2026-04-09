@@ -1,4 +1,10 @@
 # Actividad 3.1 (Trayectorias en lazo abierto)
+
+Elaborado por: <br>
+Tania Sofia Arrazola Bello Iñaki Ahedo Madrid y Marcos Allen Martinez Cortes
+
+---
+
 ## Descripción de la Actividad
 El objetivo de esta actividad consiste en implementar código en MATLAB para generar diversas trayectorias en un plano 2D utilizando control en lazo abierto. A partir de ejemplos dados en la actividad que se muestran, así mismo se deben deducir las secuencias exactas de velocidades lineales ($u$) y angulares ($w$) a lo largo del tiempo necesarias para que un robot móvil reproduzca dichas rutas de manera autónoma.
 <p align="center">
