@@ -1,7 +1,7 @@
 # Actividad 3.1 (Trayectorias en lazo abierto)
 
 Elaborado por: <br>
-Tania Sofia Arrazola Bello Iñaki Ahedo Madrid y Marcos Allen Martinez Cortes
+Tania Sofia Arrazola Bello, Iñaki Ahedo Madrid y Marcos Allen Martinez Cortes
 
 ---
 
