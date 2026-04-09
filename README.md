@@ -39,14 +39,26 @@ Usamos `ones(1, 10)` para mantener una velocidad constante exactamente durante 1
 
 Una vez que se tienen los vectores de velocidades, el bucle `for` recorre cada instante de tiempo. Utilizando el método de Euler, se calcula la nueva posición y orientación del robot sumando la posición anterior más el desplazamiento generado por las velocidades actuales:
 
-$$
-\phi_{k+1} = \phi_k + w_k \cdot t_s
-$$
+```matlab
+for k=1:N 
+    
+    % Mi phi actual ||| Mi phi hasta el momento anterior
+    phi(k+1)=phi(k)+w(k)*ts; % Integral numérica (método de Euler)
+    
+    %%%%%%%%%%%%%%%%%%%%% MODELO CINEMATICO %%%%%%%%%%%%%%%%%%%%%%%%%
+    %Aplicamos el modelo cinemático diferencial para obtener las
+    %velocidades en x, y, phi
+    xp1=u(k)*cos(phi(k+1)); 
+    yp1=u(k)*sin(phi(k+1));
+    phip= w(k)
 
-$$
-x_{k+1} = x_k + (u_k \cdot \cos(\phi_{k+1})) \cdot t_s
-$$
+    x1(k+1)=x1(k) + xp1*ts ; % Integral numérica (método de Euler)
+    y1(k+1)=y1(k) + yp1*ts ; % Integral numérica (método de Euler)
+    
+    
+    % Posicion del robot con respecto al punto de control
+    hx(k+1)=x1(k+1); 
+    hy(k+1)=y1(k+1);
 
-$$
-y_{k+1} = y_k + (u_k \cdot \sin(\phi_{k+1})) \cdot t_s
-$$
+end
+```
