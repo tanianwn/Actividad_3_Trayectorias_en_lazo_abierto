@@ -37,7 +37,7 @@ u = [0*ones(1,10)' % Velocidad lineal de referencia (m/s)
      0*ones(1,10)'
      1.5*ones(1,10)'
      0*ones(1,10)'
-     2.2*ones(1,10)'];
+     2.2*ones(1,11)'];
 w = [pi/6*ones(1,10)' % Velocidad angular de referencia (rad/s)
      0*ones(1,10)'
      (2/3)*pi*ones(1,10)'
