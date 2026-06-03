@@ -68,3 +68,11 @@ for k=1:N
 
 end
 ```
+
+### 4. Resultados
+<img width="1600" height="838" alt="image" src="https://github.com/user-attachments/assets/4592a38c-2480-463e-a50d-c0a62da5d3cc" />
+<img width="1600" height="832" alt="image" src="https://github.com/user-attachments/assets/109a77a2-32cd-4b37-9869-d9e483099217" />
+<img width="1600" height="867" alt="image" src="https://github.com/user-attachments/assets/1684faa6-7e49-4e19-bf45-91e7259740bf" />
+
+
+
